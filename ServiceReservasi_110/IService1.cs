@@ -82,7 +82,6 @@ namespace ServiceReservasi_110
         public int JumlahPemesanan { get; set; }
 
         [DataMember]
-        public string IDLokasi { get; set; }
-        public string Lokasi { get; internal set; }
+        public string Lokasi { get; set; }
     }
 }
